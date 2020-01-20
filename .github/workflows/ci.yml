@@ -1,10 +1,10 @@
-name: build
+name: test
 
 on: [push, pull_request]
 
 jobs:
-  build:
-    name: Build and test for ${{ matrix.os }}
+  test:
+    name: Test for ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
