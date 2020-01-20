@@ -22,6 +22,7 @@ dist/
 # temp
 .temp/
 .rn_temp/
+rn_temp/
 deploy_versions/
 
 npm-debug.log*
